@@ -117,11 +117,13 @@ a:focus {
 
 .navbar-default {
 	background-color: #384452;
+	opacity: 0.8;
 	border-color: transparent;
 }
 
 .dropdown-menu {
 	background: #384452;
+	opacity: 0.8;
 }
 
 .dropdown-menu > li > a {
@@ -150,7 +152,7 @@ a:focus {
 .dmbutton:active,
 .dmbutton:focus{
 	color: #ffffff;
-	background-color: #222222;
+	background-color: #3E606B;
 	border-color: #ffffff;
 }
 .dmbutton {
@@ -283,13 +285,13 @@ a:focus {
 	height:100%;
 	width:100%;
 	background-color:#00b3fe;
-	background-color:rgba(0,179,254,.9);
+	background-color:rgba(53, 93, 105, 0.9);
 	text-align:center;
 }
 
 /* Testimonials Wrap */
 #twrap {
-	background: url(../img/Mist.jpg) no-repeat center top;
+	background: url(../img/mist_web.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:60px;
 	text-align:center;
