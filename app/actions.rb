@@ -3,12 +3,12 @@ get '/' do
   erb :index
 end
 
-get '/about' do
-  erb :about
+get '/index' do
+  erb :index
 end
 
-get '/blog' do
-  erb :blog
+get '/about' do
+  erb :about
 end
 
 get '/layout' do
@@ -17,10 +17,6 @@ end
 
 get '/portfolio' do
   erb :portfolio
-end
-
-get '/single-post' do
-  erb :singlepost
 end
 
 get '/single-project' do

@@ -197,15 +197,16 @@ a:focus {
 }
 
 .hline-w {
-	border-bottom: 2px solid #ffffff;
-	margin-bottom: 25px;
+	border-bottom: 3px solid #ffffff;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 /*	################################################################
 	SITE WRAPS
 ################################################################# */
 
 #headerwrap {
-	background-color: #00b3fe;
+	background-color: #4FB670;
 	min-height: 550px;
 	padding-top: 100px;
 	padding-bottom: 0px;
@@ -240,8 +241,8 @@ a:focus {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	padding-top: 60px;
-	margin-bottom: 60px;
+	padding-top: 0px;
+	margin-bottom: 0px;
 	display: block;
 	text-align: center
 }
@@ -288,7 +289,7 @@ a:focus {
 
 /* Testimonials Wrap */
 #twrap {
-	background: url(../img/t-back.jpg) no-repeat center top;
+	background: url(../img/Mist.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:60px;
 	text-align:center;
