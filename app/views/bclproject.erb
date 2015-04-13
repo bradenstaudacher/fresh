@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/ico/favicon.ico">
+
+    <title>SOLID - Bootstrap 3 Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/stylesheets/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/stylesheets/style.css" rel="stylesheet">
+    <link href="/stylesheets/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../..//js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="/javascript/modernizr.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="/index">HOME</a></li>
+            <li><a href="/about">ABOUT</a></li>
+            <li><a href="/portfolio">PORTFOLIO</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">FEATURED PROJECTS <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/weather-project">WEATHER</a></li>
+                <li><a href="/petra-project">PETRA</a></li>
+                <li><a href="/bcl-project">BCL</a></li>
+                <li><a href="/single-project">SINGLE PROJECT</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+  <!-- *****************************************************************************************************************
+   TITLE & CONTENT
+   ***************************************************************************************************************** -->
+
+
+   <div class="container mt">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 centered">
+        <div class='tableauPlaceholder' style='width: 982px; height: 745px;'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BritishColumbiaLiquorStores&#47;StockProductbyRating&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='982' height='745' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='BritishColumbiaLiquorStores&#47;StockProductbyRating' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Br&#47;BritishColumbiaLiquorStores&#47;StockProductbyRating&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+      </div>
+      
+      <div class="col-lg-5 col-lg-offset-1">
+        <div class="spacing"></div>
+        <h4>Liquor Exploration</h4>
+        <p>This project used Nokogiri to scrape the BC Liquor Stores product pages. Data collected included product names, ratings, volumes, prices, items in stock and more.</p>
+        <h4>Findings</h4>
+        <p>The first graph shows the most stocked items coloured by their average rating from 1-5. Sapporo tallcans receive a stellar rating of 4.8, well above other beer in the most stocked. As well in a most stocked products list dominated by beer and 40% hard alcohol, Baileys with 17% alcohol ranks a surprising 5th most stocked overall.</p>
+        <p>The second graph shows countries ranked by their median rating for products that received 40 votes or more. The graph is coloured by price. The immediately noticeable standout is Iceland. At only $1.99, it is well liked with 234 votes and holds a spot as the cheap top contender in terms of average rating. </p>
+        <p>The third graph continues with this investigation of price to rating relationship. Products are listed from most to least expensive with all products costing $100 or more. For accurate ratings only products with more than 50 votes were considered. Here the standout is the Numanthia Termanthia 03/05. Although costing $259.99, it gets an abysmall rating of 1.5 with more than 120 votes. Take home message being if you are looking for a $200+ bottle of wine, avoid Numanthia Termanthia.</p>
+      </div>
+      
+      <div class="col-lg-4 col-lg-offset-1">
+        <div class="spacing"></div>
+        <h4>Project Details<a href="https://github.com/bradenstaudacher/bclscraper"><i class="fa fa-github icon"></i></a></h4>
+        <div class="hline"></div>
+        <div class="project-info">
+        <p><b>Date:</b> March 11th, 2015</p>
+        <p><b>Contributors:</b> Braden Staudacher</p>
+        <p><b>Categories:</b> Data Vizualization, Scraping</p>
+        <p><b>Tagged:</b> Nokogiri, CSV</p>
+        <p><b>Github Link:</b><a href="https://github.com/bradenstaudacher/bclscraper"><i class="fa fa-github icon"></i></a></p>
+        <p><b>Scraped:</b> <a href="http://www.bcliquorstores.com/product-catalogue">BCL Product Catalogue</a></p>
+      </div>
+      </div>
+
+    </div><! --/row -->
+   </div><! --/container -->
+   
+  <!-- *****************************************************************************************************************
+   PORTFOLIO SECTION
+   ***************************************************************************************************************** -->
+   <div id="portfoliowrap">
+        <div class="portfolio-centered">
+          <h3>Related Works.</h3>
+            <div class="recentitems portfolio">
+        <div class="portfolio-item graphic-design">
+          <div class="he-wrap tpl6">
+          <img src="/img/portfolio/portfolio_09.jpg" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                                <a data-rel="prettyPhoto" href="/img/portfolio/portfolio_09.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                          </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+                            
+                <div class="portfolio-item web-design">
+                    <div class="he-wrap tpl6">
+          <img src="/img/portfolio/portfolio_02.jpg" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
+                                <a data-rel="prettyPhoto" href="/img/portfolio/portfolio_02.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                          </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+        
+                <div class="portfolio-item graphic-design">
+                    <div class="he-wrap tpl6">
+          <img src="/img/portfolio/portfolio_03.jpg" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                                <a data-rel="prettyPhoto" href="/img/portfolio/portfolio_03.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                          </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+        
+                <div class="portfolio-item graphic-design">
+                    <div class="he-wrap tpl6">
+          <img src="/img/portfolio/portfolio_04.jpg" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                                <a data-rel="prettyPhoto" href="/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                          </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+
+                <div class="portfolio-item graphic-design">
+                    <div class="he-wrap tpl6">
+          <img src="/img/portfolio/portfolio_05.jpg" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                                <a data-rel="prettyPhoto" href="/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                          </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+                                        
+                    
+            </div><!-- portfolio -->
+        </div><!-- portfolio container -->
+   </div><!--/Portfoliowrap -->
+   
+     
+   
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/javascript/bootstrap.min.js"></script>
+  <script src="/javascript/retina-1.1.0.js"></script>
+  <script src="/javascript/jquery.hoverdir.js"></script>
+  <script src="/javascript/jquery.hoverex.min.js"></script>
+  <script src="/javascript/jquery.prettyPhoto.js"></script>
+    <script src="/javascript/jquery.isotope.min.js"></script>
+    <script src="/javascript/custom.js"></script>
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+
+
+    <script>
+// Portfolio
+(function($) {
+  "use strict";
+  var $container = $('.portfolio'),
+    $items = $container.find('.portfolio-item'),
+    portfolioLayout = 'fitRows';
+    
+    if( $container.hasClass('portfolio-centered') ) {
+      portfolioLayout = 'masonry';
+    }
+        
+    $container.isotope({
+      filter: '*',
+      animationEngine: 'best-available',
+      layoutMode: portfolioLayout,
+      animationOptions: {
+      duration: 750,
+      easing: 'linear',
+      queue: false
+    },
+    masonry: {
+    }
+    }, refreshWaypoints());
+    
+    function refreshWaypoints() {
+      setTimeout(function() {
+      }, 1000);   
+    }
+        
+    $('nav.portfolio-filter ul a').on('click', function() {
+        var selector = $(this).attr('data-filter');
+        $container.isotope({ filter: selector }, refreshWaypoints());
+        $('nav.portfolio-filter ul a').removeClass('active');
+        $(this).addClass('active');
+        return false;
+    });
+    
+    function getColumnNumber() { 
+      var winWidth = $(window).width(), 
+      columnNumber = 1;
+    
+      if (winWidth > 1200) {
+        columnNumber = 5;
+      } else if (winWidth > 950) {
+        columnNumber = 4;
+      } else if (winWidth > 600) {
+        columnNumber = 3;
+      } else if (winWidth > 400) {
+        columnNumber = 2;
+      } else if (winWidth > 250) {
+        columnNumber = 1;
+      }
+        return columnNumber;
+      }       
+      
+      function setColumns() {
+        var winWidth = $(window).width(), 
+        columnNumber = getColumnNumber(), 
+        itemWidth = Math.floor(winWidth / columnNumber);
+        
+        $container.find('.portfolio-item').each(function() { 
+          $(this).css( { 
+          width : itemWidth + 'px' 
+        });
+      });
+    }
+    
+    function setPortfolio() { 
+      setColumns();
+      $container.isotope('reLayout');
+    }
+      
+    $container.imagesLoaded(function () { 
+      setPortfolio();
+    });
+    
+    $(window).on('resize', function () { 
+    setPortfolio();          
+  });
+})(jQuery);
+</script>
+  </body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/ico/favicon.ico">
+
+    <title>SOLID - Bootstrap 3 Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/stylesheets/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/stylesheets/style.css" rel="stylesheet">
+    <link href="/stylesheets/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../..//js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="/javascript/modernizr.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="/index">HOME</a></li>
+            <li><a href="/about">ABOUT</a></li>
+            <li><a href="/portfolio">PORTFOLIO</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">FEATURED PROJECTS <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="/weather-project">WEATHER</a></li>
+                <li><a href="/single-project">PETRA</a></li>
+                <li><a href="/bcl-project">BCL</a></li>
+                <li><a href="/single-project">SINGLE PROJECT</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+  <!-- *****************************************************************************************************************
+   TITLE & CONTENT
+   ***************************************************************************************************************** -->
+
+
+   <div class="container mt">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 centered">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img class="img-responsive center-block" src="/img/portfolio/petra_web1.png" alt="">
+            </div>
+            <div class="item">
+              <img class="img-responsive center-block" src="/img/portfolio/petra_web2.png" alt="">
+            </div>
+            <div class="item">
+              <img class="img-responsive center-block" src="/img/portfolio/petra_web3.png" alt="">
+            </div>
+          </div>
+        </div><! --/Carousel -->
+      </div>
+      
+      <div class="col-lg-5 col-lg-offset-1">
+        <div class="spacing"></div>
+        <h4>Portfolio Webpage</h4>
+        <p>This project used Sinatra to quickly build a landing page template for a client. Bootstrap and Font Awesome were used as well as a template from Start Bootstrap called Freelancer to do the heavy lifting.</p>
+        <h4>Details</h4>
+        <p>Work for this project is ongoing, however the majority was completed in one morning. Sinatra and templates work extremely well together and offer the ability to generate easy to use, responsive landing pages in a few hours. Custom work was done to tailor the page to the clients needs, including generation a custom logo in photoshop. Ruby allowed for the possible expansion of using a database to render project modal boxes. </p> 
+      </div>
+      
+      <div class="col-lg-4 col-lg-offset-1">
+        <div class="spacing"></div>
+        <h4>Project Details<a href="https://github.com/bradenstaudacher/petra"><i class="fa fa-github icon"></i></a></h4>
+        <div class="hline"></div>
+        <div class="project-info">
+        <p><b>Date:</b> April 5th, 2015</p>
+        <p><b>Contributors:</b> Braden Staudacher, Nicole Wright</p>
+        <p><b>Categories:</b> Landing Page, Web Design, Bootstrap, Font Awesome</p>
+        <p><b>Tagged:</b> Sinatra, Ruby, Responsive, Photoshop, Mobile</p>
+        <p><b>Github Link:</b><a href="https://github.com/bradenstaudacher/petra"><i class="fa fa-github icon"></i></a></p>
+        <p><b>Website:</b> <a href="http://www.petrawright.ca/">petrawright.ca</a></p>
+      </div>
+      </div>
+
+    </div><! --/row -->
+   </div><! --/container -->
+   
+  <!-- *****************************************************************************************************************
+   PORTFOLIO SECTION
+   ***************************************************************************************************************** -->
+   <div id="portfoliowrap">
+        <div class="portfolio-centered">
+          <h3>Related Works.</h3>
+            <div class="recentitems portfolio">
+        <div class="portfolio-item graphic-design">
+          <div class="he-wrap tpl6">
+          <img src="/img/portfolio/portfolio_09.jpg" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                                <a data-rel="prettyPhoto" href="/img/portfolio/portfolio_09.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                          </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+                            
+                <div class="portfolio-item web-design">
+                    <div class="he-wrap tpl6">
+          <img src="/img/portfolio/portfolio_02.jpg" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">A Web Design Item</h3>
+                                <a data-rel="prettyPhoto" href="/img/portfolio/portfolio_02.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                          </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+        
+                <div class="portfolio-item graphic-design">
+                    <div class="he-wrap tpl6">
+          <img src="/img/portfolio/portfolio_03.jpg" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                                <a data-rel="prettyPhoto" href="/img/portfolio/portfolio_03.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                          </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+        
+                <div class="portfolio-item graphic-design">
+                    <div class="he-wrap tpl6">
+          <img src="/img/portfolio/portfolio_04.jpg" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                                <a data-rel="prettyPhoto" href="/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                          </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+
+                <div class="portfolio-item graphic-design">
+                    <div class="he-wrap tpl6">
+          <img src="/img/portfolio/portfolio_05.jpg" alt="">
+            <div class="he-view">
+              <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">A Graphic Design Item</h3>
+                                <a data-rel="prettyPhoto" href="/img/portfolio/portfolio_04.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                                <a href="single-project.html" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                          </div><!-- he bg -->
+            </div><!-- he view -->    
+          </div><!-- he wrap -->
+        </div><!-- end col-12 -->
+                                        
+                    
+            </div><!-- portfolio -->
+        </div><!-- portfolio container -->
+   </div><!--/Portfoliowrap -->
+   
+     
+   
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/javascript/bootstrap.min.js"></script>
+  <script src="/javascript/retina-1.1.0.js"></script>
+  <script src="/javascript/jquery.hoverdir.js"></script>
+  <script src="/javascript/jquery.hoverex.min.js"></script>
+  <script src="/javascript/jquery.prettyPhoto.js"></script>
+    <script src="/javascript/jquery.isotope.min.js"></script>
+    <script src="/javascript/custom.js"></script>
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+
+
+    <script>
+// Portfolio
+(function($) {
+  "use strict";
+  var $container = $('.portfolio'),
+    $items = $container.find('.portfolio-item'),
+    portfolioLayout = 'fitRows';
+    
+    if( $container.hasClass('portfolio-centered') ) {
+      portfolioLayout = 'masonry';
+    }
+        
+    $container.isotope({
+      filter: '*',
+      animationEngine: 'best-available',
+      layoutMode: portfolioLayout,
+      animationOptions: {
+      duration: 750,
+      easing: 'linear',
+      queue: false
+    },
+    masonry: {
+    }
+    }, refreshWaypoints());
+    
+    function refreshWaypoints() {
+      setTimeout(function() {
+      }, 1000);   
+    }
+        
+    $('nav.portfolio-filter ul a').on('click', function() {
+        var selector = $(this).attr('data-filter');
+        $container.isotope({ filter: selector }, refreshWaypoints());
+        $('nav.portfolio-filter ul a').removeClass('active');
+        $(this).addClass('active');
+        return false;
+    });
+    
+    function getColumnNumber() { 
+      var winWidth = $(window).width(), 
+      columnNumber = 1;
+    
+      if (winWidth > 1200) {
+        columnNumber = 5;
+      } else if (winWidth > 950) {
+        columnNumber = 4;
+      } else if (winWidth > 600) {
+        columnNumber = 3;
+      } else if (winWidth > 400) {
+        columnNumber = 2;
+      } else if (winWidth > 250) {
+        columnNumber = 1;
+      }
+        return columnNumber;
+      }       
+      
+      function setColumns() {
+        var winWidth = $(window).width(), 
+        columnNumber = getColumnNumber(), 
+        itemWidth = Math.floor(winWidth / columnNumber);
+        
+        $container.find('.portfolio-item').each(function() { 
+          $(this).css( { 
+          width : itemWidth + 'px' 
+        });
+      });
+    }
+    
+    function setPortfolio() { 
+      setColumns();
+      $container.isotope('reLayout');
+    }
+      
+    $container.imagesLoaded(function () { 
+      setPortfolio();
+    });
+    
+    $(window).on('resize', function () { 
+    setPortfolio();          
+  });
+})(jQuery);
+</script>
+  </body>
+</html>

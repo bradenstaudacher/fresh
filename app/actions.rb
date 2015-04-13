@@ -19,6 +19,18 @@ get '/portfolio' do
   erb :portfolio
 end
 
-get '/single-project' do
-  erb :singleproject
+get '/weather-project' do
+  erb :weatherproject
+end
+
+get '/petra-project' do
+  erb :petraproject
+end
+
+get '/bcl-project' do
+  erb :bclproject
+end
+
+get '/hands-project' do
+  erb :handsproject
 end
