@@ -117,13 +117,13 @@ a:focus {
 
 .navbar-default {
 	background-color: #384452;
-	opacity: 0.8;
+	opacity: 1.0;
 	border-color: transparent;
 }
 
 .dropdown-menu {
 	background: #384452;
-	opacity: 0.8;
+	opacity: 1;
 }
 
 .dropdown-menu > li > a {
