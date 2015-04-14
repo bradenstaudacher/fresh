@@ -34,3 +34,7 @@ end
 get '/hands-project' do
   erb :handsproject
 end
+
+get '/lol-project' do
+  erb :lolproject
+end

@@ -54,7 +54,7 @@
                 <li><a href="/weather-project">WEATHER</a></li>
                 <li><a href="/petra-project">PETRA</a></li>
                 <li><a href="/bcl-project">BCL</a></li>
-                <li><a href="/hands-project">MUSIC</a></li>
+                <li><a href="/single-project">SINGLE PROJECT</a></li>
               </ul>
             </li>
           </ul>
@@ -72,52 +72,33 @@
    <div class="container mt">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 centered">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-        
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img class="img-responsive center-block" src="/img/portfolio/hands_web1.png" alt="">
-            </div>
-            <div class="item">
-              <img class="img-responsive center-block" src="/img/portfolio/hands_web2.png" alt="">
-            </div>
-            <div class="item">
-              <img class="img-responsive center-block" src="/img/portfolio/hands_web3.png" alt="">
-            </div>
-          </div>
-        </div><! --/Carousel -->
+        <div class='tableauPlaceholder' style='width: 982px; height: 745px;'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Le&#47;LeagueofLegends&#47;ADASbyRange&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='982' height='745' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='LeagueofLegends&#47;ADASbyRange' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Le&#47;LeagueofLegends&#47;ADASbyRange&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
       </div>
       
       <div class="col-lg-5 col-lg-offset-1">
         <div class="spacing"></div>
-        <h4>Hands in the Air</h4>
-        <p>This project used Heroku, Sinatra and Postgres to build an interactive playlist hosting and voting web application.</p>
-        <h4>Details</h4>
-        <p>The website is broken up into two workflows, hosting and joining parties. Hosting a party consists of choosing a playlist and adding some information such as a title and your name. Joining a party simply requires clicking on the party you wish to listen to or vote on.</p>
-        <p>The iFrame adapts depending on whether you are the host of a party or not. As a host you are given full controls over the iFrame, while as a guest all you can do is pause but not seek.</p>
-        <p>When the current video that is playing ends a new video from the list below autoplays. The next video to be played is based off of whatever video had the most votes.</p>
+        <h4>League of Legends</h4>
+        <p>This project used two data sets to compare various statistics from the MOBA League of Legends.</p>
+        <h4>Findings</h4>
+        <p>The first graph shows attack damage against attack speed with the colour denoting whether or not a champion is ranged or melee. The first noticeable trend is that 44 of the 123 champions listed have an attack speed of 0.625. Gnar and Jayce, both of who have ranged forms can be seen as the green circles below the trend line on the map. On the far left we have Annie, with the lowest base attack speed in the game. The only other ranged chamion below the 0.625 mark is Azir, however his passive which converts cooldown reduction into attack speed makes up for it. The other major outlier is the brown circle at the far bottom of the map, Orianna. Her low base attack damage is explained by her passive which adds additional stacking magic damage to each of her auto attacks.</p>
+        <p>The second graph further explores ranged and melee characteristics. This time attack speed is plotted against health. As expected, Gnar and Jayce again seem to be outliers however truly belong to both the melee and ranged camps. Of more interest are the lowest down melee champions Diana and Amumu. Diana is far below her expected attack damage, most likely due to her passive which much like Orianna adds magic damage to her auto attacks. Returning to Orianna on this graph we can calculate her expected attack damage based off of her health. The number arrived at is 52.53, 12.16 points higher than observed. Interestingly, if you add her passive to the calculation it almost perfectly balances out. She receives a flat 10 bonus magic damage in addition to .15 of her AP. Assuming 15AP from runes in addition to 15AP from her starting item the total bonus magic damage arrived at is 14.5. This would place her in the same area as other midlaners such as Malzahar, Leblanc and Yasuo.</p>
+        <p>The third graph drills further into the attack damage against health graph seen previously. This time the graphs are coloured by usual role with trend lines calculated for each. The interesting find here was that unlike other roles, ADC's do not have a positive relationship between attack damage and health. The trend line observed is almost flat, with the range of attack damage values possible being very narrow. </p>
+        <p>The fourth graph explores the concept of role further this time comparing effective magic health and effective physical health. Clicking on the Role tabs allows you to see individual roles. The narrowness of the ADC definition is observed here as well. The minimal outlier is Urgot, who by many is considered to not fit into the ADC category so this is to be expected. The two major outliers observed are Thresh who does not gain passive armor, and Gnar who's ultimate grants him substantial additional armor and magic resist. </p>
+        <p> The last graph showcases some data from two of LCS regions, NA and EU. The graph show the differences in banning observed between the regions. Some of the notable data points include Rumble who was banned 39 times in North America, while only being banned 6 times in EU. On the opposite side of the spectrum Cassiopeia garnered 28 bans in EU and only 4 in NA. Other region specific bans include Morgana and Maoakai for NA (both being banned 3 times more often), with Azir for EU being banned 4 times as often as in NA. Looking along the diagonal there are some champions that both regions agree are worth banning including Kassadin, Nidalee and Reksai. </p>
       </div>
       
       <div class="col-lg-4 col-lg-offset-1">
         <div class="spacing"></div>
-        <h4>Project Details<a href="https://github.com/vaberay/Midterm-Project-Web-March-2015"><i class="fa fa-github icon"></i></a></h4>
+        <h4>Project Details<a href="https://github.com/bradenstaudacher/loldata"><i class="fa fa-github icon"></i></a></h4>
         <div class="hline"></div>
         <div class="project-info">
-        <p><b>Date:</b> March 25th, 2015</p>
-        <p><b>Contributors:</b> Braden Staudacher, Ben Temple, Ramone Vaberay, Vance Ng</p>
-        <p><b>Categories:</b> Web Application, Web Design</p>
-        <p><b>Tagged:</b> AJAX, RUBY, iFrame, POSTGRES</p>
-        <p><b>Github Link:</b><a href="https://github.com/vaberay/Midterm-Project-Web-March-2015"><i class="fa fa-github icon"></i></a></p>
-        <p><b>Youtube API:</b> <a href="https://developers.google.com/youtube/">Google Developers</a></p>
-        <p><b>Project Site:</b> <a href="http://handsintheair.herokuapp.com/">Hands in the Air</a></p>
-        
+        <p><b>Date:</b> April 2nd, 2015</p>
+        <p><b>Contributors:</b> Braden Staudacher</p>
+        <p><b>Categories:</b> Data Vizualization</p>
+        <p><b>Tagged:</b> LoL, MOBA</p>
+        <p><b>Github Link:</b><a href="https://github.com/bradenstaudacher/loldata"><i class="fa fa-github icon"></i></a></p>
+        <p><b>Champion Data:</b> <a href="http://leagueoflegends.wikia.com/wiki/League_of_Legends_Wiki">LoL Wiki</a></p>
+        <p><b>LCS Data:</b> <a href="http://www.reddit.com/r/leagueoflegends/comments/302df5/lcs_picks_bans_after_week_8_eu_na_separated/">LCS Picks/Bans</a></p>
       </div>
       </div>
 
